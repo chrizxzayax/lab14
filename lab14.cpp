@@ -18,4 +18,15 @@ class Colors {
     void setGreen(int g) { green = g; }
     void setBlue(int b) { blue = b; }
 
+    // Getters? first time i use these
+    int getRed() const { return red; }
+    int getGreen() const { return green; }  
+    int getBlue() const { return blue; }
+
+    void print() const {
+        cout << left << setw(4) << red << " "
+             << left << setw(4) << green << " "
+             << left << setw(4) << blue << endl;
+    }
+
 };
